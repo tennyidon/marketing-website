@@ -1,0 +1,15 @@
+.bg-skew {
+  background: linear-gradient(45deg, #054faa 0%,#0f80ea 100%);
+  -webkit-transform: skew(0deg, 10deg);
+  transform: skew(0deg, 5deg);
+  padding: 400px 0;
+  margin-top: -190px;
+}
+.content {
+  width: 60%;
+  -webkit-transform: skew(0deg, -10deg);
+  transform: skew(0deg, -5deg);
+}
+body{
+  background: #e1ebf5;
+}
