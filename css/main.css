@@ -3,7 +3,7 @@
   background: linear-gradient(45deg, #054faa 0%,#0f80ea 100%);
   -webkit-transform: skew(0deg, 4deg);
   transform: skew(0deg, 4deg);
-  padding: 440px 0;
+  padding: 460px 0;
   margin-top: -190px;
 }
 .bg-skew-body1{
@@ -16,6 +16,15 @@
   left: -150px;
   -webkit-transform: skew(-8deg, 4deg);
   transform: skew(-10deg, 4deg);
+}
+
+.bg-skew-body1 img{
+  position: absolute;
+  top: 85px;
+  right:450px;
+  width: 75px;
+  -webkit-transform: skew(8deg, -4deg);
+  transform: skew(10deg, -4deg);
 }
 
 .bg-skew-body2{
@@ -31,6 +40,15 @@
   transform: skew(-10deg, 4deg);
 }
 
+.bg-skew-body2 img{
+  position: absolute;
+  top: 120px;
+  right:600px;
+  width: 75px;
+  -webkit-transform: skew(8deg, -4deg);
+  transform: skew(10deg, -4deg);
+}
+
 .bg-skew-body3{
   background: #F6FAFD;
   position: absolute;
@@ -44,11 +62,27 @@
   transform: skew(-10deg, 4deg);
 }
 
+.bg-skew-body3 img{
+  position: absolute;
+  top: 85px;
+  right:450px;
+  width: 75px;
+  -webkit-transform: skew(8deg, -4deg);
+  transform: skew(10deg, -4deg);
+}
+
 .bg-unskew {
   -webkit-transform: skew(0deg, -4deg);
   transform: skew(0deg, -4deg);
 }
 
+.aimIll{
+  width: 700px;
+  position: absolute;
+  top: 625px;
+  left: 730px;
+  z-index: -1;
+}
 #HeaderText{
   position:absolute;
   color: white;
@@ -68,6 +102,11 @@ body {
       height: 100vh;
       background: #e1ebf5;
       display: table;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .content {
