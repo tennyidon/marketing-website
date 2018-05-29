@@ -9,6 +9,7 @@
 .bg-skew-body1{
   background: #F6FAFD;
   position: absolute;
+  top: 725px;
   padding: 300px 0;
   border-radius: 80px;
   margin: 10px 0px;
@@ -16,6 +17,22 @@
   left: -150px;
   -webkit-transform: skew(-8deg, 4deg);
   transform: skew(-10deg, 4deg);
+}
+
+.bg-skew-header1{
+  position: absolute;
+  padding-left: 320px;
+  top:100px;
+  -webkit-transform: skew(8deg, -4deg);
+  transform: skew(10deg, -4deg);
+}
+.bg-skew-content1{
+  font-size: 23px;
+  position: absolute;
+  padding-left: 210px;
+  top:200px;
+  -webkit-transform: skew(8deg, -4deg);
+  transform: skew(10deg, -4deg);
 }
 
 .bg-skew-body1 img{
@@ -49,24 +66,66 @@
   transform: skew(10deg, -4deg);
 }
 
+.bg-skew-header2{
+    position: absolute;
+    top: 130px;
+    right:400px;
+    -webkit-transform: skew(8deg, -4deg);
+    transform: skew(10deg, -4deg);
+}
+
+.bg-skew-content2{
+  font-size: 23px;
+  position: absolute;
+  top: 200px;
+  left:100px;
+  right:210px;
+  -webkit-transform: skew(8deg, -4deg);
+  transform: skew(10deg, -4deg);
+}
+
+li{
+  font-size:20px;
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
 .bg-skew-body3{
   background: #F6FAFD;
   position: absolute;
-  top: 2100px;
-  padding: 300px 0;
+  top: 2030px;
+  padding: 400px 0;
   border-radius: 80px;
   margin: 10px 0px;
   width: 750px;
   left: -150px;
   -webkit-transform: skew(-8deg, 4deg);
   transform: skew(-10deg, 4deg);
+  z-index: -1;
 }
 
 .bg-skew-body3 img{
   position: absolute;
-  top: 85px;
-  right:450px;
-  width: 75px;
+  top: 110px;
+  right:500px;
+  width: 70px;
+  -webkit-transform: skew(8deg, -4deg);
+  transform: skew(10deg, -4deg);
+}
+
+.bg-skew-header3{
+  position: absolute;
+  top: 110px;
+  right: 70px;
+  -webkit-transform: skew(8deg, -4deg);
+  transform: skew(10deg, -4deg);
+}
+
+.bg-skew-content3{
+  font-size: 23px;
+  position: absolute;
+  top: 200px;
+  left:200px;
   -webkit-transform: skew(8deg, -4deg);
   transform: skew(10deg, -4deg);
 }
@@ -85,9 +144,9 @@
 }
 
 .issueIll{
-  width: 650px;
+  width: 600px;
   position: absolute;
-  top: 1400px;
+  top: 1375px;
   right: 630px;
   z-index: -1;
 }
@@ -95,16 +154,21 @@
 .methodIll{
   width: 650px;
   position: absolute;
-  top: 1950px;
+  top: 1900px;
   left: 730px;
 }
 
 .bfooterskew{
-  background: linear-gradient(135deg, #aed2f1 0%,#519eea  100%);
-  -webkit-transform: skew(10deg, 0deg);
-  transform: skew(0deg, 0deg);
-  padding: 460px 0;
+  background: linear-gradient(180deg, #aed2f1 0%,#519eea  100%);
+  padding: 250px 0;
+  margin-top: 1930px;
+  z-index: 1;
 }
+
+.footer{
+
+}
+
 #HeaderText{
   position:absolute;
   color: white;
@@ -124,6 +188,7 @@ body {
       height: 100vh;
       background: #e1ebf5;
       display: table;
+      font-family: 'Nanum Gothic', sans-serif;
 }
 
 html, body {
@@ -144,7 +209,7 @@ html, body {
 
 .content h1 {
       color: #fff;
-      font-family: "OCR A Std";
+      font-family: 'Nanum Gothic', sans-serif;
       font-weight: 200;
       font-size: 40px;
 }
@@ -192,13 +257,13 @@ nav #menu li {
 nav #menu li a {
       text-decoration: none;
       color: #F5F5F5;
-      font-family: "OCR A Std";
+      font-family: 'Nanum Gothic', sans-serif;
       font-weight: 200;
 }
 nav #menu li:hover {
       margin: 0px 19px;
 
-      font-family: "OCR A Std";
+      font-family: 'Nanum Gothic', sans-serif;
       font-weight: 200;
 
       border: solid 1px #F5F5F5;
@@ -302,7 +367,7 @@ nav #menu li:hover {
       }
 
       #menu a {
-            font-family: "OCR A Std";
+            font-family: 'Questrial', sans-serif;
             font-weight: 200;
             font-size: 20px;
       }
