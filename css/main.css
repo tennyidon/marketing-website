@@ -99,6 +99,12 @@
   left: 730px;
 }
 
+.bfooterskew{
+  background: linear-gradient(135deg, #aed2f1 0%,#519eea  100%);
+  -webkit-transform: skew(10deg, 0deg);
+  transform: skew(0deg, 0deg);
+  padding: 460px 0;
+}
 #HeaderText{
   position:absolute;
   color: white;
@@ -138,7 +144,7 @@ html, body {
 
 .content h1 {
       color: #fff;
-      font-family: "Poppins";
+      font-family: "OCR A Std";
       font-weight: 200;
       font-size: 40px;
 }
@@ -186,13 +192,13 @@ nav #menu li {
 nav #menu li a {
       text-decoration: none;
       color: #F5F5F5;
-      font-family: "Poppins";
+      font-family: "OCR A Std";
       font-weight: 200;
 }
 nav #menu li:hover {
       margin: 0px 19px;
 
-      font-family: "Poppins";
+      font-family: "OCR A Std";
       font-weight: 200;
 
       border: solid 1px #F5F5F5;
@@ -296,7 +302,7 @@ nav #menu li:hover {
       }
 
       #menu a {
-            font-family: "Poppins";
+            font-family: "OCR A Std";
             font-weight: 200;
             font-size: 20px;
       }
