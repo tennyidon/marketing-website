@@ -83,6 +83,22 @@
   left: 730px;
   z-index: -1;
 }
+
+.issueIll{
+  width: 650px;
+  position: absolute;
+  top: 1400px;
+  right: 630px;
+  z-index: -1;
+}
+
+.methodIll{
+  width: 650px;
+  position: absolute;
+  top: 1950px;
+  left: 730px;
+}
+
 #HeaderText{
   position:absolute;
   color: white;
