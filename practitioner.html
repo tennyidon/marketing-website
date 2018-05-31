@@ -50,7 +50,7 @@
       </div>
         <div class="row">
 
-          <div class="col-8 offset-2 col-md-4  col-lg-4 ">
+          <div class="col-8 offset-2 col-md-3  col-lg-3 ">
             <div class="headerImg">
               <img src="img/computer.png" class="img-fluid">
             </div>
@@ -94,5 +94,28 @@
       </div>
     </div>
 
+    <div class="bfooter">
+      <div class="row">
+        <div class="col-4 col-md-3 col-lg-2">
+          <img src="img/logo.png" class="img-fluid" alt="Citron logo" >
+        </div>
+      </div>
+    </div>
+    
+    <script>
+          $("#toggle").click(function() {
+            $(this).toggleClass('on');
+            $("#resize-rest").toggleClass("active");
+            var navigation = document.getElementById("navig");
+            if( navigation.style.backgroundColor == "black"){
+              navigation.style.backgroundColor = "";
+              navigation.style.transition ="all 1s ease-out";
+            }
+            else {
+              navigation.style.backgroundColor = "black";
+              navigation.style.transition ="all 1s ease-out";
+              }
+          });
+    </script>
   </body>
 </html>

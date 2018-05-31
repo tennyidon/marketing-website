@@ -66,33 +66,57 @@
       <div class="row">
         <div class="col-12 col-lg-6">
           <div class="info-pp">
-            <img src="img/inConnect.png" class="img-fluid">
+            <img src="img/geolocation.png" class="img-fluid">
             <h5>geolocation practitioner search</h5>
             <p>Search reliable practitioner near you with our health scout app</p>
           </div>
         </div>
         <div class="col-12 col-lg-6">
           <div class="info-pp">
-            <img src="img/inConnect.png" class="img-fluid">
+            <img src="img/rating.png" class="img-fluid">
             <h5>Verified rating</h5>
             <p>Verified patient rating of practitioner provides reliable feedback on services provided by practitioner</p>
           </div>
         </div>
         <div class="col-12 col-lg-6">
           <div class="info-pp">
-            <img src="img/inConnect.png" class="img-fluid">
+            <img src="img/formFill.png" class="img-fluid">
             <h5>Mobile medical form fill out</h5>
             <p>Easy Form fill out system for baseline and documents send by the practitioner</p>
           </div>
         </div>
         <div class="col-12 col-lg-6">
           <div class="info-pp">
-            <img src="img/inConnect.png" class="img-fluid">
+            <img src="img/history.png" class="img-fluid">
             <h5>Medical History on demand</h5>
             <p>Convenient access to consultation history and intervention anywhere on your phone</p>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="bfooter">
+      <div class="row">
+        <div class="col-4 col-md-3 col-lg-2">
+          <img src="img/logo.png" class="img-fluid" alt="Citron logo" >
+        </div>
+      </div>
+    </div>
+
+    <script>
+          $("#toggle").click(function() {
+            $(this).toggleClass('on');
+            $("#resize-rest").toggleClass("active");
+            var navigation = document.getElementById("navig");
+            if( navigation.style.backgroundColor == "black"){
+              navigation.style.backgroundColor = "";
+              navigation.style.transition ="all 1s ease-out";
+            }
+            else {
+              navigation.style.backgroundColor = "black";
+              navigation.style.transition ="all 1s ease-out";
+              }
+          });
+    </script>
   </body>
 </html>

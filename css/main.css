@@ -143,10 +143,6 @@ li{
   transform: skew(10deg, -4deg);
 }
 
-.bg-unskew {
-  -webkit-transform: skew(0deg, -4deg);
-  transform: skew(0deg, -4deg);
-}
 
 .aimIll{
   width: 700px;
@@ -172,18 +168,15 @@ li{
 }
 
 .bfooterskew{
-  background: linear-gradient(180deg, #aed2f1 0%,#519eea  100%);
-  padding-top: 150px;
+  background: linear-gradient(45deg, #054faa 0%,#0f80ea 100%);
+  padding-top: 100px;
   margin-top: 1930px;
   z-index: 1;
 }
-.bfooterskew img{
-  position: relative;
-  width: 70%;
-}
 
-.footer{
-
+.bfooter{
+  background: linear-gradient(45deg, #054faa 0%,#0f80ea 100%);
+  padding-top: 100px;
 }
 
 #HeaderText{
@@ -560,6 +553,10 @@ nav #menu li.active{
 .our-team{
   border: solid 1px #054faa;
 }
+.aboutUsbody{
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
 .aboutUsbody h2{
   text-align: center;
   margin: 50px 0;
@@ -567,6 +564,11 @@ nav #menu li.active{
 
 .pp-content{
   text-align: center;
+  margin:100px 100px;
+}
+
+.pp-content img{
+  margin: 20px 0px;
 }
 .info-pp{
   padding: 50px 30px;
@@ -574,6 +576,7 @@ nav #menu li.active{
 .info-pp img{
     width:75px;
 }
+
 @media(max-width: 768px) {
       #toggle {
             visibility: visible;
@@ -594,6 +597,8 @@ nav #menu li.active{
       nav #menu {
             display: none;
       }
+
+
 }
 
 @media(min-width: 768px) {
