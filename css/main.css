@@ -565,8 +565,15 @@ nav #menu li.active{
   margin: 50px 0;
 }
 
-
-
+.pp-content{
+  text-align: center;
+}
+.info-pp{
+  padding: 50px 30px;
+}
+.info-pp img{
+    width:75px;
+}
 @media(max-width: 768px) {
       #toggle {
             visibility: visible;
