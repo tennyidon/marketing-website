@@ -9,8 +9,8 @@
 
 .bg-rest{
   background: linear-gradient(45deg, #054faa 0%,#0f80ea 100%);
-  padding: 250px 0;
-  margin-top: -250px;
+  padding: 50px 0;
+  margin-top: -50px;
 }
 
 .bg-rest h1{
@@ -189,8 +189,12 @@ li{
 #HeaderText{
   position:absolute;
   color: white;
-  margin-left: 40;
+  margin-left: 40px;
+}
 
+.headerImg img{
+  margin-top: 100px;
+  margin-bottom: 0px;
 }
 
 * {
@@ -361,8 +365,25 @@ nav #menu li.active{
       -webkit-transform: skew(0deg, -4deg);
       transform: skew(0deg, -4deg);
 }
+#resize-rest {
+      z-index: 1;
+      top: 70px;
+      position: absolute;
+      background: #000;
+      width: 100%;
+      height:50%;
+      visibility: hidden;
+      opacity: 0;
+      transition: all 1s ease-out;
+      display: table;
+}
 
 #resize #menu {
+      height: 90px;
+      display: table-cell;
+      vertical-align: center;
+}
+#resize-rest #menu {
       height: 90px;
       display: table-cell;
       vertical-align: center;
@@ -379,11 +400,31 @@ nav #menu li.active{
       transition: all 0.3s ease-out;
 }
 
+#resize-rest #menu li {
+      display: block;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 50px;
+      min-height: 50px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease-out;
+}
+
+
 #resize li:nth-child(1) {
       margin-top:20px;
 }
 
+#resize-rest li:nth-child(1) {
+      margin-top:20px;
+}
+
 #resize #menu li a {
+      color: #fff;
+}
+
+#resize-rest #menu li a {
       color: #fff;
 }
 
@@ -392,6 +433,10 @@ nav #menu li.active{
       opacity: 1;
 }
 
+#resize-rest.active {
+      visibility: visible;
+      opacity: 1;
+}
 
 
 .our-team{
@@ -501,8 +546,8 @@ nav #menu li.active{
   transition: all 0.3s ease 0s;
 }
 
-.our-team .socialli a:hover{
-  color:none;
+.our-team .social-media a:hover{
+  color:#054faa;
   background: white;
   text-decoration: none;
 
@@ -515,6 +560,12 @@ nav #menu li.active{
 .our-team{
   border: solid 1px #054faa;
 }
+.aboutUsbody h2{
+  text-align: center;
+  margin: 50px 0;
+}
+
+
 
 @media(max-width: 768px) {
       #toggle {
@@ -540,6 +591,9 @@ nav #menu li.active{
 
 @media(min-width: 768px) {
       #resize {
+            visibility: hidden !important;
+      }
+      #resize-rest {
             visibility: hidden !important;
       }
 }
