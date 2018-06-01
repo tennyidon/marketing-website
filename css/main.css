@@ -598,7 +598,6 @@ nav #menu li.active{
             display: none;
       }
 
-
 }
 
 @media(min-width: 768px) {
@@ -608,4 +607,72 @@ nav #menu li.active{
       #resize-rest {
             visibility: hidden !important;
       }
+
+}
+@media screen and (min-width: 1200px) {
+  .aimIll{
+      width:750px;
+        left: 1030px;
+    }
+  .issueIll{
+    width:750px;
+    right: 930px;
+    }
+  .methodIll{
+    width: 725px;
+    top: 2025px;
+    left: 1000px;
+  }
+  .bg-skew-body1{
+    padding: 350px 0;
+    width: 1000px;
+    -webkit-transform: skew(-8deg, 4deg);
+    transform: skew(-10deg, 4deg);
+  }
+  .bg-skew-body1 img{
+    top: 75px;
+    right:600px;
+    width: 75px;
+  }
+  .bg-skew-header1{
+    padding-left: 450px;
+    top:100px;
+  }
+  .bg-skew-content1{
+    padding-right: 200px;
+  }
+  .bg-skew-body2{
+    top: 1500px;
+    padding: 350px 0;
+    width: 1000px;
+  }
+  .bg-skew-body2 img{
+    right:700px;
+  }
+  .bg-skew-header2{
+    right:500px;
+  }
+  .bg-skew-content2{
+    padding-left: 100px;
+    margin-top: 50px;
+  }
+  .bg-skew-body3{
+    top: 2200px;
+    width: 1000px;
+  }
+  .bg-skew-body3 img{
+    right:600px;
+  }
+  .bg-skew-header3{
+    top: 115px;
+    right: 150px;
+  }
+  .bg-skew-content3{
+    margin-top: 50px;
+    padding-left: 50px ;
+  }
+  .bfooterskew{
+    padding-top: 100px;
+    margin-top: 2150px;
+  }
 }
